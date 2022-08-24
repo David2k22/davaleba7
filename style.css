@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+}
+
+ul{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 637px;
+    margin-top: 50px;
+}
+
+.pirveli{
+    padding: 23px 18px 23px;
+    border-radius: 0px 35px 0px 35px;
+    background-color: #c4c4c4;
+}
+
+.pirveli:hover{
+    background-color: #79B331;
+    color: #FFFFFF;
+}
+
+.mart{
+    width: 421px;
+    height: 187px;
+    margin-left: 806px;
+    margin-top: 213px;
+
+}
+
+.oval{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-color: #79B331;
+    border-radius: 50%;
+    animation: sirbili 3s infinite;
+}
+
+@keyframes sirbili {
+    0% {
+        top: 0;
+        left: 0;
+      }
+      25% {
+        top: 0;
+        left: 392px;
+      }
+      50% {
+        top: 179px;
+        left: 392px;
+      }
+      75% {
+        top: 179px;
+        left: 0;
+      }
+      100% {
+        top: 0;
+        left: 0;
+      }
+
+}
+
+.darchenilia{
+    padding-top: 52px;
+    padding-left: 52px;
+    font-size: 18px;
+}
+
+.dro{
+    padding-top: 21px;
+    padding-left: 99px;
+    font-size: 36px;
+}
+
+.xe{
+    width: 1061px;
+    height: 499px;
+    margin-left: 270px;
+    margin-top: 125px;
+    position: relative;
+}
+
+.ghero{
+    height: 429px;
+    width: 2px;
+    background-color: #C4C4C4;
+    position: absolute;
+    bottom: 0;
+    margin-left: 491px;
+}
+
+.zedamarcx{
+    width: 493px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotolileft{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    margin-left: 3px;
+    border-radius: 0px 35px 0px 35px;
+}
+
+.text1{
+    width: 420px;
+    height: 48px;
+    white-space: nowrap;
+
+}
+
+.kalci, .kalciqveda{
+    font-size: 18px; 
+}
+
+.text1:hover{
+    color: #79B331;
+}
+
+.fotolileft:hover{
+    background-color: #79B331;
+}
+
+.fotoliright:hover{
+    background-color: #79B331;
+}
+
+.meore{
+    width: 499px;
+    height: 70px;
+    position: absolute;
+    top: 113px;
+    left: 493px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotoliright{
+    width: 70px;
+    height: 70px;
+    background-color: #C4C4C4;
+    border-radius: 0px 35px 0px 35px;
+    transform: rotate(90deg);
+}
+
+.text2{
+    font-size: 18px;
+    padding-left: 22px;
+}
+
+.text2:hover{
+    color: #79B331;
+}
+
+.mesame{
+    width: 562px;
+    height: 70px;
+    position: absolute;
+    top: 217px;
+    right: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text3{
+    width: 489px;
+    height: 49px;
+    font-size: 18px;
+}
+
+.text3:hover{
+    color: #79B331;
+}
+
+.meotxe{
+    width: 495px;
+    height: 72px;
+    position: absolute;
+    top: 320px;
+    left: 493px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text4{
+    font-size: 18px;
+    width: 413px;
+    height: 49px;
+}
+
+.text4:hover{
+    color: #79B331;
+}
