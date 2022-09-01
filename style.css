@@ -9,6 +9,7 @@
 html{
     background-image: url(img/bg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 ul{
@@ -127,7 +128,7 @@ ul{
 
 }
 
-.kalci, .kalciqveda{
+.kalci{
     font-size: 18px; 
 }
 
@@ -208,4 +209,177 @@ ul{
 
 .text4:hover{
     color: #79B331;
+}
+
+@media only screen and (max-width: 1024px) {
+    html{
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ghero{
+        position: absolute;
+        right: 94px;
+        top: 937px;
+    }
+
+    .zedamarcx{
+        position: absolute;
+        top: 870px;
+        left: 397px;
+        width: 570px;
+    }
+
+    .kalci, .kalciqveda{
+        padding-right: 79px;
+    }
+
+    .meore{
+        width: 590px;
+        position: absolute;
+        top: 977px;
+        left: 377px;
+        display: flex;
+        flex-direction: row-reverse
+        
+    }
+
+    .fotoliright{
+        transform: none;
+    }
+
+    .mesame{
+        position: absolute;
+        top: 1084px;
+        left: 404px;
+    }
+
+    .meotxe{
+        position: absolute;
+        top: 1178px;
+        left: 404px;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 563px;
+    }
+    
+}
+
+@media only screen and (max-width: 414px) {
+   html{
+    /* background-repeat: no-repeat;
+    background-size: 1000%; */
+    background-image: none;
+   }
+
+    .mart{
+    width: 370px;
+    height: 170px;
+    margin-left: -9px;
+    margin-top: 88px;
+    white-space: nowrap;
+   }
+
+   nav{
+    display: none;
+   }
+
+   .container {
+    position: absolute;
+    cursor: pointer;
+    top: 21px;
+    left: 300px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+
+    .xe{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+    }
+
+    .ghero{
+        display: none;
+    }
+
+    .fotolileft, .fotoliright{
+        display: none;
+    }
+
+    .kubik1, .kubik2, .kubik3, .kubik4{
+        width: 70px;
+        height: 70px;
+        background-color: #C4C4C4;
+        border-radius: 0px 35px 0px 35px;
+    }
+
+    .kubik1{
+     margin-top: 111px;
+     margin-left: 172px;
+    }
+
+    .kubik2{
+        margin-top: 84px;
+        margin-left: 172px;
+    }
+
+    .kubik3{
+        margin-top: 82px;
+        margin-left: 172px;
+    }
+
+    .kubik4{
+        margin-top: 80px;
+        margin-left: 172px;
+    }
+
+    .meore{
+        position: absolute;
+        top: 597px;
+        left: 44px;
+    }
+
+    .mesame{
+        position: absolute;
+        top: 743px;
+        left: 44px;
+    }
+
+    .meotxe{
+        position: absolute;
+        top: 884px;
+        left: 44px;
+    }
+
 }
